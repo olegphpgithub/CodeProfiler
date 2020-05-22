@@ -14,6 +14,7 @@
 
 #else
 
+#   define START_LOG()
 #   define PRINT_LOG(szFmt, ...)
 
 #endif
