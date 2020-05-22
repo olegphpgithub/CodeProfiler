@@ -8,6 +8,7 @@
 int main()
 {
     PRINT_LOG(_T("%s %d"), _T("iii"), 789);
+    PRINT_LOG(_T("Count %s %d %s"), _T("xxx"), 789, _T("aaa"));
     std::wcout << CodeProfiler::m_log << std::endl;
     std::cout << "Hello World!\n";
 }
